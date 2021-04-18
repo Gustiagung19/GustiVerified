@@ -1,0 +1,14 @@
+{
+	"toofast":"\nAnda Mengaktifkan Dan menonaktifkan Bot Terlalu Cepat, Jadi Karena Batas Kecepatan Saya Tidak Dapat Mengubah Nama Bot Dengan konfigurasi.\nMundur Ke Penyimpanan Terakhir Atau Default(Setel Nilai Nama Ke \"\" (Kosong) Di Konfigurasi  Untuk Menonaktifkan Fitur Ini).\n",
+	"fillconfig": "\nHarap Isi config.json Terlebih Dahulu!\nProses Keluar!\n",
+	"dbconnected": "\nBerhasil Terhubung Ke Database.\n",
+	"filldb": "\nSilahkan Isi Database Di config.json. Jika Anda Mengalami Masalah, Silahkan Lihat Tutorial Di Halaman Forum.\n",
+	"tablecreated": "\nTable #TABLENAME# Tidak Ada, Saya Mencoba Membuatnya Sendiri.\n",
+	"usercreated": "Penggunaka Dengan ID #USERID# Dimasukkan Kedalam Database Dengan Kode #CODE#",
+	"ready": "\n#BOTNAME# Siap Bekerja\n",
+
+	"codesent": "Pesan Dengan Kode Verifikasi Anda Telah Dikirim, Silahlkan Periksa DM Anda.",
+	"codemessage": "Hey :wave:, Selamat Datang Di Server Kami! Sebelum Anda Mulai, Ingatlah Untuk Membaca Peraturan Server! \nKode Verifikasi Anda Adalah: ```#CODE#```\n",
+	"coderesent": "Hey :wave:, Anda Telah Meminta Kode Anda \nKode Verifikasi Anda Adalah: ```#CODE#```\n",
+	"botblocked": "Sepertinya Anda Telah Memblokir DM Saya, Silahkan Di Buka Blokirnya #BOTMENTION# Atau Aktifkan DM Dari Pengguna Perselisihan Ini Untuk Verifikasi."
+}

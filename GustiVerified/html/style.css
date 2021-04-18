@@ -1,0 +1,198 @@
+body, html {
+	margin: 0;
+	color: white;
+	font-family: Arial;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	transition: all .5s ease-in;
+}
+
+.rainbow {
+  background-image: repeating-linear-gradient(45deg, #1abc9c, #2ecc71, #3498db, #9b59b6, #34495e, #f1c40f, #e67e22, #e74c3c);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  animation: rainbow 8s ease infinite;
+  margin: 10px 0;
+
+}
+
+.inner {
+  position: relative;
+  top: 50%;
+  transform: translate(50%, -75%);
+  width: 50%;
+}
+
+.main-text {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: -5px;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: rgba(255,255,255, 0.8);
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input:focus ~ label {
+  color: rgba(52, 152, 219,1.0);
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: 0;
+  letter-spacing: 5px;
+  -webkit-transform: translate(0, -30px) scale(0.7, 0.7);
+      -ms-transform: translate(0, -30px) scale(0.7, 0.7);
+          transform: translate(0, -30px) scale(0.7, 0.7);
+
+}
+
+input {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-size: 20px !important;
+  width: 100%;
+  border: none;
+  margin-top: 0;
+  background-color: transparent;
+  color: rgba(255,255,255,0.8);
+}
+
+input:focus {
+  outline: none;
+  color: rgba(52,152,219,1);
+}
+
+.after {
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(52, 152, 219,1.0)), color-stop(50%, transparent));
+  background: -webkit-linear-gradient(left, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background: -o-linear-gradient(left, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background: linear-gradient(to right, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input:focus ~ .after {
+  background-position: 0 0;
+}
+
+.blue {
+  color: rgba(52, 152, 219,1.0);
+  font-size: 25px;
+}
+
+.enter {
+	text-align: center;
+}
+
+button {
+  position: relative;
+  width: 200px;
+  height: 34px;
+  font-size: 20px;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin-top: 20px;
+  padding: 2px 10px;
+  color: rgba(255, 255, 255, 1);
+  background: white;
+  border: none;
+  border-radius: 15px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(52, 152, 219,1.0)), color-stop(50%, transparent));
+  background: -webkit-linear-gradient(left, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background: -o-linear-gradient(left, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background: linear-gradient(to right, rgba(52, 152, 219,1.0) 50%, transparent 50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+button:before {
+  position: absolute;
+  font-family: 'Font Awesome 5 Free', Helvetica, Arial, sans-serif;;
+  font-size: 20px;
+  content: "SEND";
+  letter-spacing: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  display: block;
+  border-radius: 15px;
+  /*color: white;*/
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+button:active,
+button:focus,
+button:hover {
+  outline: none;
+  background-position: 0 0;
+  color: white;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 25%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
