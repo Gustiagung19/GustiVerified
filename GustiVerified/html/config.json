@@ -1,8 +1,0 @@
-{
-	"header":"Hey!",
-	"secondtext":"<b>Karena Ini Pertama Kalinya Anda Disini, Anda Harus Memverifikasi Diri Anda Di Discord</b>",
-	"invite":"https://discord.gg/mEtj24Q",
-	"code":"<i class='fas fa-key'></i> Kode Anda",
-	"empty":"<i class='fas fa-exclamation'></i> Kode Tidak Boleh Kosong",
-	"wrongCode":"<i class='fas fa-exclamation'></i> Kode Itu Salah. Ikuti Intruksi Dan Buat Kode Anda Di Server Discord Yang Diberikan. (#TRIESLEFT# Upaya Tersisa)"
-}
